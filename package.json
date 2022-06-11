@@ -1,0 +1,14 @@
+{
+  "name": "tailwind-1",
+  "version": "1.0.0",
+  "description": "An intro into tailwindcss",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.1.2"
+  }
+}
