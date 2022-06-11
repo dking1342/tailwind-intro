@@ -4,7 +4,8 @@
   "description": "An intro into tailwindcss",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css":"tailwind build src/styles.css -o dist/styles.css --watch"
   },
   "author": "David",
   "license": "MIT",
