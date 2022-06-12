@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-2",
+  "version": "1.0.0",
+  "description": "Tailwind crash course | project from scratch",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css":"tailwindcss -i ./src/style.css -o ./dist/style.css --watch"
+  },
+  "author": "Kavooce",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.2"
+  }
+}
